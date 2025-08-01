@@ -12,7 +12,7 @@
     ...
   } @ inputs: {
   	# create a nixOS-system module i call 'nixos' (hostname)
-    nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.ronaldoal = nixpkgs.lib.nixosSystem {
       
       # define system architecture, so packages know how to install
       system = "x86_64-linux";
