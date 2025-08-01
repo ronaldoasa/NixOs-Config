@@ -21,7 +21,7 @@
       specialArgs = {inherit inputs;};
       modules = [
       	# Point to a Nix file containing my system configuration
-        ./my-nixos-config/configuration.nix
+        ./configuration.nix
       ];
     };
   };
